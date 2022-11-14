@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+  color: white;
+}
+header {
+  background-color: #10b582;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+.ul_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 40px;
+}
+li {
+  list-style-type: none;
+}
+/* Секция 1 */
+.introduce {
+  background-color: #10b582;
+  position: relative;
+  min-height: 720px;
+}
+.main_int {
+  display: flex;
+  flex-direction: row;
+  min-height: 650px;
+  gap: 44px;
+}
+.left_woman {
+  display: flex;
+  align-self: flex-end;
+}
+.right_woman {
+  margin-top: 56px;
+}
+.ul_socials {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 56px;
+}
+.introduce_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.introduce_text {
+  max-width: 542px;
+  text-align: center;
+}
+#text_int_1 {
+  padding-bottom: 41px;
+}
+#text_int_2 {
+  font-size: 58px;
+  padding-bottom: 20px;
+}
+#text_int_3 {
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+.button_int {
+  background-color: #fa9f42;
+  padding: 20px 47px;
+  border: none;
+  border-radius: 0 20px;
+  color: white;
+}
