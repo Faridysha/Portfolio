@@ -7,7 +7,6 @@
 .container {
   margin: 0 auto;
   max-width: 1170px;
-  color: white;
 }
 header {
   background-color: #10b582;
@@ -30,13 +29,14 @@ li {
 .introduce {
   background-color: #10b582;
   position: relative;
-  min-height: 720px;
+  min-height: 800px;
 }
 .main_int {
   display: flex;
   flex-direction: row;
   min-height: 650px;
   gap: 44px;
+  color: white;
 }
 .left_woman {
   display: flex;
@@ -79,4 +79,71 @@ li {
   border: none;
   border-radius: 0 20px;
   color: white;
+}
+
+.arrow_text {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+.text_down {
+  padding-top: 15px;
+}
+.woman_arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* секция числа numbers */
+.number_sector {
+  margin: 120px 35px;
+}
+.numbers_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+.green_numbers {
+  font-size: 58px;
+  color: #10b582;
+  margin-bottom: 15px;
+}
+.numbers_text {
+  font-size: 14px;
+  max-width: 240px;
+}
+/* SECTION TEACHERS */
+.teachers_text {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.h1_teacher {
+  font-size: 58px;
+  color: #353a5a;
+}
+.btn_teachers {
+  width: 230px;
+  height: 56px;
+  border: none;
+  border-radius: 0px 20px;
+  background-color: #10b582;
+  color: white;
+}
+.main_teacher_text {
+  margin: 20px 0 50px 0;
+}
+.teachers {
+  display: grid;
+  grid-template-columns: 170px 170px 170px;
+  gap: 30px;
+  text-align: center;
+}
+.teachers_block_separate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 120px;
 }
