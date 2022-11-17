@@ -72,6 +72,11 @@ li {
 #text_int_3 {
   font-size: 16px;
   padding-bottom: 50px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
 }
 .button_int {
   background-color: #fa9f42;
@@ -79,6 +84,11 @@ li {
   border: none;
   border-radius: 0 20px;
   color: white;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
 }
 
 .arrow_text {
@@ -112,6 +122,11 @@ li {
 .numbers_text {
   font-size: 14px;
   max-width: 240px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
 }
 /* SECTION TEACHERS */
 .teachers_text {
@@ -130,9 +145,19 @@ li {
   border-radius: 0px 20px;
   background-color: #10b582;
   color: white;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
 }
 .main_teacher_text {
   margin: 20px 0 50px 0;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
 }
 .teachers {
   display: grid;
@@ -190,6 +215,11 @@ li {
   font-size: 58px;
   color: #353a5a;
   text-align: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 100%;
 }
 .popular_course_background {
   padding: 120px 0px;
@@ -217,6 +247,11 @@ li {
   border-radius: 0px 20px;
   background-color: #10b582;
   color: white;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
 }
 .btn_stat {
   display: flex;
@@ -226,12 +261,94 @@ li {
 /*  SECTION JOIN US */
 .join_background {
   background-image: url(./assets/image/img/background.png);
+  background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 578px;
 }
 .join_main_text {
-  text-align: right;
-  width: 50%;
+  text-align: justify;
+  width: 47%;
   margin-left: auto;
+  padding-top: 240px;
+  padding-bottom: 120px;
+}
+
+.join_mentor {
+  font-size: 58px;
+  color: #353a5a;
+}
+.join_choose_plan {
+  padding: 20px 0px 50px 0px;
+  width: 508px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.btn_choose_plan {
+  background-color: #fa9f42;
+  color: white;
+  width: 230px;
+  height: 56px;
+  border: none;
+  border-radius: 0px 20px;
+  cursor: pointer;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+/* SECTION INFO */
+.info_grid {
+  display: grid;
+  grid-template-columns: 270px 89px 121px 132px 182px;
+  justify-content: space-between;
+  padding: 50px 0px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+}
+.column_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.line_top {
+  border-bottom: 1px solid #353a5a;
+  padding-top: 121px;
+  opacity: 0.1;
+}
+.line_bottom {
+  border-top: 1px solid #353a5a;
+  padding-top: 30px;
+  opacity: 0.1;
+}
+
+.logotype_info {
+  width: 170px;
+  height: 22px;
+}
+.main_text_info {
+  padding: 27px 0px 47px 0px;
+}
+
+.h3 {
+  padding-bottom: 31px;
+}
+
+/* SECTION FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.right_footer {
+  display: flex;
+}
+.public_ofera {
+  padding-left: 30px;
 }
